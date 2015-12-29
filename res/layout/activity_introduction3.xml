@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shorttour_a2.IntroductionActivity" >
+
+    <ImageView
+        android:id="@+id/introduction_Image3"
+        android:layout_width="fill_parent"
+        android:layout_height="150sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/place20" />
+        <TextView
+         android:id="@+id/introduction"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/introduction_Image3"
+         android:layout_alignParentLeft="true"
+         android:text="建德新叶村                                  发团日期07.15"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#FFFFFF"
+         android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/introduction_text3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/introduction_qunliao"
+         android:text="
+         
+         
+在新叶村遇见你\n
+					----期待结识爱古镇的你\n\n
+					
+出发城市	杭州 出发\n
+目的地		建德新叶村\n\n
+时间安排	3天\n
+发团日期	07月15日\n
+交通信息	汽车去汽车回\n
+集合地		杭州西站\n
+活动特色	游玩古镇，体验传统生化方式\n 
+预算		    门票¥68  交通费用¥50 住宿费用¥200\n\n
+A.免费政策：儿童身高1.2米以下免票\n
+B.优惠政策：儿童1.2-1.5米之间半票\n
+景点介绍:\n\n
+新叶村是这么一个看似平凡的村落,却在当今四处充斥着文化快餐和电子垃圾的文明社会中固执地捍卫着自己的传统,几近虔诚地守护着这个拥有三千多人口庞大宗族的精神图腾,以坚不可摧的家族制度维系着对传统文化的尊重和膜拜,成为中国农村宗族制度和民俗文化的一个活注脚.\n\n 
+
+行程安排\n\n
+第一天:\n\n
+8:30-9:30    杭州西站集合，乘车前往新叶村. \n\n
+9:30-11:30   游览好运岛. \n\n
+11:30-12:30  中餐品尝水晶宫千岛湖鱼宴. \n\n
+13:40-17:00  游览情人谷. \n\n
+17:00-21:30  自由活动. \n\n
+\n
+第二天:\n\n
+8:30-13:30   游览大慈岩景区、明清古建筑群一新叶古民居(在景点用午餐). \n\n
+13:40-17:00  游览地下艺术迷宫-灵栖胜境. \n\n
+17:00-21:00  自由活动. \n\n
+\n
+第三天:\n\n
+8:30-13:30   访梅城古镇,游览江南第一峡---七里扬帆,品渔家鱼. \n\n
+14:40-15:40  游程结束返回杭州.\n\n
+        " />
+
+     <ImageView
+         android:id="@+id/intorduction_touxiang"
+         android:layout_width="70sp"
+         android:layout_height="70sp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="118dp"
+         android:src="@drawable/temp" />
+
+     <Button
+         android:id="@+id/introduction_qunliao"
+         android:layout_width="wrap_content"
+         android:layout_height="37sp"
+         android:layout_alignLeft="@+id/intorduction_touxiang"
+         android:layout_below="@+id/intorduction_touxiang"
+         android:background="@drawable/shape"
+         android:text="进群聊"
+         android:textColor="#FFFFFF"
+         android:textSize="17sp" />
+
+     <TextView
+         android:id="@+id/intorduction_renming"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/introduction_Image3"
+         android:layout_toRightOf="@+id/introduction_qunliao"
+         android:text="Leon_"
+         android:textSize="15sp" />
+
+</RelativeLayout>
+</ScrollView>

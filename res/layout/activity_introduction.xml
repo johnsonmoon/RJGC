@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    tools:context="com.example.shorttour_a2.IntroductionActivity" >
+	
+	    <ImageView
+	        android:id="@+id/introduction_Image"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_gravity="center|center_horizontal|clip_horizontal"
+	        android:adjustViewBounds="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/place9" />
+	
+	     <TextView
+	         android:id="@+id/introduction"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignBottom="@+id/introduction_Image"
+	         android:layout_alignParentLeft="true"
+	         android:text=" 杭州大明山景区                          发团日期06.12"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:textColor="#FFFFFF"
+	         android:textSize="15sp" />
+	
+	     <TextView
+	         android:id="@+id/intorduction_renming"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_below="@+id/introduction_Image"
+	         android:layout_marginLeft="14dp"
+	         android:layout_toRightOf="@+id/intorduction_touxiang"
+	         android:text="Leon_" 
+	         android:textSize="15sp"/>
+	
+	     <TextView
+	         android:id="@+id/textView1_mine_"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentLeft="true"
+	         android:layout_below="@+id/introduction_qunliao"
+	         android:text="        
+在大明山遇见你\n
+					——期待结识爱自然爱登山的你\n
+\n
+出发城市	杭州 出发\n
+目的地		杭州临安大明山\n
+时间安排	2天\n
+发团日期	06月12日\n
+交通信息	汽车去汽车回\n
+集合地		杭州西湖文化广场\n\n
+活动特色	登山赏景  悬空栈道体验 天书草坪露营 \n
+预算		门票¥110  景区交通¥25  索道单程¥50\n\n
+A.免费政策：儿童身高1.2米以下免票\n
+B.优惠政策：1.2-1.5米之间购买儿童票55元每人\n\n
+残疾证免费、军官证、中小学生五折优惠、学生证、记者证、教师证、60岁-70岁老人八五折。 70岁以上持有老年证半价55元。\n\n
+景点介绍	大明山，浙西临安唯一的省级风景名胜区，国家AAAA级风景旅游区。最高峰大明顶海拔1489.9米，有32奇峰、13幽涧、8条飞瀑、3个千亩以上的高山草甸, 横贯六座山体的万米岩洞，共有大小景点96个，被誉为“浙江黄山”。\n
+-仙境般的大明山景\n\n
+天然造化的奇松、怪石、云海，高山之巅的千亩草甸、纵横交错的万米岩洞、风光秀丽的高山大明湖、有雄伟壮丽的七峰尖、千姿百态争妍斗艳的奇松、美不胜收质朴幽静的山谷盆地风光的千亩田。\n\n
+-给吃货的你--大明山四宝\n\n
+享誉中外的山核桃、绿茶上品之天目青顶（天目云雾茶）、鲜嫩可口的笋干、鲜美醇香的大明山飞鸡\n\n
+行程安排\n	\n
+第一天：\n\n
+07：30-10：00 杭州西湖文化广场集合，车程约2.5小时\n\n
+10：00-11：00 开始山地行军，一路军歌嘹亮，约1小时，到达目的地，完成作战任务。\n\n
+11：00-13：00 野炊进行时，要求学员根据地形，自行搭灶、捡柴、生火、烹制食物。\n\n
+13：20-14：50  虎门岩降：岩降是在教练的指导与保护下，借助景点的自然落差，利用绳索由岩壁顶端下降\n\n
+15：00-15：40 团队项目——求生墙\n\n
+16：00-17：00 打麻糍\n\n
+17:00-19:00    农家晚餐\n\n
+19:00-20:30    峡谷特色篝火晚会\n\n
+晚上在天书草坪帐篷露营休息\n\n
+
+第二天：\n\n
+08:00—08:30  农家早餐\n\n
+09：00-11：30 前往大明山浙江十大最佳休闲度假胜地，野外生存生活基地。\n\n
+12：30—       返回杭州，送至指定地点，结束行程。\n\n
+        " />
+	
+	     <Button
+	         android:id="@+id/introduction_qunliao"
+	         android:layout_width="wrap_content"
+	         android:layout_height="37sp"
+	         android:layout_below="@+id/intorduction_touxiang"
+	         android:layout_centerHorizontal="true"
+	         android:background="@drawable/shape"
+	         android:text="进群聊"
+	         android:textColor="#FFFFFF"
+	         android:textSize="17sp" />
+	
+	     <ImageView
+	         android:id="@+id/intorduction_touxiang"
+	         android:layout_width="70sp"
+	         android:layout_height="70sp"
+	         android:layout_alignBottom="@+id/intorduction_renming"
+	         android:layout_centerHorizontal="true"
+	         android:src="@drawable/temp" />
+	
+	</RelativeLayout>
+</ScrollView>

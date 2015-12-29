@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shorttour_a2.MainActivity" >
+	 
+    
+ 
+    <ListView 
+        android:id="@+id/ListView_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dividerHeight="4sp">
+        
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bottomList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal" 
+        android:layout_above="@id/ListView_homepage">
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_qunliao_1"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_qunliaol_1"
+                android:text="@string/qunliao" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_homepage_1"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_homepagel_1"
+                android:text="@string/homepage" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_mine_1"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_minel_1"
+                android:text="@string/mine" />
+        </LinearLayout>
+ 
+    </LinearLayout>
+    
+</RelativeLayout>

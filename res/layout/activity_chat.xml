@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shorttour_a2.Activity_Chat" >
+    
+    <ImageView
+        android:id="@+id/chat_up_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:padding="4sp"
+        android:src="@drawable/chat_up_search" />
+
+    <ListView 
+        android:id="@+id/ListView_qunliao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dividerHeight="4sp"
+        android:layout_below="@id/chat_up_search">
+        
+    </ListView>
+    
+    <LinearLayout
+        android:id="@+id/bottomList_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal" 
+        android:layout_above="@id/ListView_qunliao">
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_qunliao_1_qunliao"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_qunliaol_1"
+                android:text="@string/qunliao" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_homepage_1_qunliao"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_homepagel_1"
+                android:text="@string/homepage" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_mine_1_qunliao"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_minel_1"
+                android:text="@string/mine" />
+        </LinearLayout>
+ 
+    </LinearLayout>
+
+</RelativeLayout>

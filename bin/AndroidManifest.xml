@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.WE.shorttour_a3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Activity_Mine"
+            android:label="我的">
+            <intent-filter >
+                <action android:name="android.intent.action.Activity_Mine"/>
+                
+                <category android:name="android.intent.category.Activity_Mine"/>
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".Activity_Chat"
+            android:label="群聊">
+            <intent-filter >
+                <action android:name="android.intent.action.Activity_Chat"/>
+                
+                <category android:name="android.intent.category.Activity_Chat"/>
+            </intent-filter>
+            
+        </activity>
+        
+        <activity 
+            android:name=".SearchActivity"
+            android:label="搜索你要的短途游">
+            <intent-filter >
+                <action android:name="android.intent.action.SearchActivity"/>
+                
+                <category android:name="android.intent.category.SearchActivity"/>
+            </intent-filter>
+        </activity>
+        
+       <activity 
+            android:name=".IntroductionActivity"
+            android:label="搜索你要的短途游">
+            <intent-filter >
+                <action android:name="android.intent.action.IntroductionActivity"/>
+                
+                <category android:name="android.intent.category.IntroductionActivity"/>
+            </intent-filter>
+        </activity>
+        
+       <activity 
+            android:name=".GroupTour_Activity"
+            android:label="组团游">
+            <intent-filter >
+                <action android:name="android.intent.action.GroupTour_Activity"/>
+                
+                <category android:name="android.intent.category.GroupTour_Activity"/>
+            </intent-filter>
+        </activity>
+       
+       <activity 
+            android:name=".SearchResultActivity"
+            android:label="搜索结果">
+            <intent-filter >
+                <action android:name="android.intent.action.SearchResultActivity"/>
+                
+                <category android:name="android.intent.category.SearchResultActivity"/>
+            </intent-filter>
+        </activity>
+        
+       <activity 
+            android:name=".CreateActivity"
+            android:label="发布新的组团游">
+            <intent-filter >
+                <action android:name="android.intent.action.CreateActivity"/>
+                
+                <category android:name="android.intent.category.CreateActivity"/>
+            </intent-filter>
+        </activity>
+        
+       <activity 
+            android:name=".GroupChatActivity"
+            android:label="聊天">
+            <intent-filter >
+                <action android:name="android.intent.action.GroupChatActivity"/>
+                
+                <category android:name="android.intent.category.GroupChatActivity"/>
+            </intent-filter>
+        </activity>
+        
+       <activity 
+            android:name=".TourInfoActivity"
+            android:label="我的组团信息">
+            <intent-filter >
+                <action android:name="android.intent.action.TourInfoActivity"/>
+                
+                <category android:name="android.intent.category.TourInfoActivity"/>
+            </intent-filter>
+        </activity>
+        
+       <activity 
+            android:name=".MyCollectionActivity"
+            android:label="我的收藏">
+            <intent-filter >
+                <action android:name="android.intent.action.MyCollectionActivity"/>
+                
+                <category android:name="android.intent.category.MyCollectionActivity"/>
+            </intent-filter>
+        </activity>
+       
+    </application>
+
+</manifest>

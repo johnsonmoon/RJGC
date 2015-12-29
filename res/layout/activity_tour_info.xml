@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/tourInfo_imageView_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:src="@drawable/temp" />
+
+    <TextView
+        android:id="@+id/tourInfo_textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tourInfo_imageView_up"
+        android:layout_toRightOf="@+id/tourInfo_imageView_up"
+        android:text="Johnson"
+        android:layout_marginLeft="4sp"
+        android:layout_marginRight="4sp"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tourInfo_textView_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tourInfo_textView_name"
+        android:layout_toRightOf="@+id/tourInfo_imageView_up"
+        android:textColor="@android:color/holo_purple"
+        android:text="大强生，驴友，组团达人" />
+    
+    <ListView 
+        android:id="@+id/tourInfo_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tourInfo_imageView_up">
+        
+    </ListView>
+    
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context="com.example.shorttour_a2.SearchActivity" >
+
+       <RadioButton
+           android:id="@+id/search_bt1"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="60dp"
+           android:layout_y="100dp"
+           android:drawableTop="@drawable/shanghua" />
+
+       <RadioButton
+           android:id="@+id/search_bt2"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="220dp"
+           android:layout_y="100dp"
+           android:drawableTop="@drawable/pashan" />
+
+       <RadioButton
+           android:id="@+id/search_bt4"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="220dp"
+           android:layout_y="160dp"
+           android:drawableTop="@drawable/shaokao" />
+
+       <RadioButton
+           android:id="@+id/search_bt3"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="60dp"
+           android:layout_y="160dp"
+           android:drawableTop="@drawable/caizhai" />
+
+       <RadioButton
+           android:id="@+id/search_bt5"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="60dp"
+           android:layout_y="220dp"
+           android:drawableTop="@drawable/haibian" />
+
+       <RadioButton
+           android:id="@+id/search_bt6"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="220dp"
+           android:layout_y="220dp"
+           android:drawableTop="@drawable/gongyuan" />
+
+       <RadioButton
+           android:id="@+id/search_bt7"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="60dp"
+           android:layout_y="280dp"
+           android:drawableTop="@drawable/diaoyu" />
+
+       <RadioButton
+           android:id="@+id/search_bt8"
+           style="@style/rbt_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="220dp"
+           android:layout_y="280dp"
+           android:drawableTop="@drawable/guzhen" />
+
+       <EditText
+           android:id="@+id/searchActivity_editText"
+           android:layout_width="185dp"
+           android:layout_height="wrap_content"
+           android:layout_x="60dp"
+           android:layout_y="40dp"
+           android:ems="10" 
+           android:text="请输入景点名"/>
+
+       <ImageButton
+           android:id="@+id/searchActivity_searchButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_x="250dp"
+           android:layout_y="40dp"
+           android:background="@drawable/icon_search"
+           android:src="@drawable/icon_search" />
+  	
+</AbsoluteLayout>
