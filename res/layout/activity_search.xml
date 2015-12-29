@@ -92,7 +92,7 @@
            android:layout_height="wrap_content"
            android:layout_x="250dp"
            android:layout_y="40dp"
-           android:background="@drawable/icon_search"
-           android:src="@drawable/icon_search" />
+           android:background="@drawable/icon_search_"
+           android:src="@drawable/icon_search_" />
   	
 </AbsoluteLayout>
