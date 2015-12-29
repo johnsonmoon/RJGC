@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:padding="16sp">
+
+    <ImageView 
+        android:id="@+id/search_result_list_item_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:maxWidth="120sp"
+        android:maxHeight="80sp"
+        android:src="@drawable/place10"/>
+
+    <TextView
+        android:id="@+id/search_result_list_item_textView_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/search_result_list_item_imageView"
+        android:layout_toRightOf="@+id/search_result_list_item_imageView"
+        android:text="Large Text"
+        android:padding="4sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/search_result_list_item_textView_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search_result_list_item_imageView"
+        android:layout_alignLeft="@+id/search_result_list_item_textView_up"
+        android:padding="4sp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/search_result_list_item.xml -->

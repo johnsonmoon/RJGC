@@ -4,17 +4,13 @@
     <string name="app_name">短途客</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
     <string name="qunliao">群聊</string>
     <string name="homepage">主页</string>
     <string name="mine">我的</string>
-    
     <string name="launch_name_display">D游</string>
-    
-    <string name = "action_search">搜索短途游</string>
-    
-    <string name = "duantuyou">点击进入短途游</string>
-    
-    <string name = "kong"></string>
+    <string name="action_search">搜索短途游</string>
+    <string name="duantuyou">点击进入短途游</string>
+    <string name="kong"></string>
+    <string name="title_activity_register">RegisterActivity</string>
 
 </resources>

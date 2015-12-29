@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shorttour_a2.CreateActivity" >
+
+    <ImageView
+        android:id="@+id/create_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/create" />
+
+    <EditText
+        android:id="@+id/tcreate_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/create_place"
+        android:layout_alignBottom="@+id/create_place"
+        android:layout_toRightOf="@+id/create_place"
+        android:ems="10"
+        android:hint="请输入活动地点" />
+
+    <EditText
+        android:id="@+id/tcreate_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/create_date"
+        android:layout_alignBottom="@+id/create_date"
+        android:layout_alignLeft="@+id/tcreate_place"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="请输入活动时间" />
+
+    <EditText
+        android:id="@+id/tcreate_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/create_time"
+        android:layout_alignBottom="@+id/create_time"
+        android:layout_alignLeft="@+id/tcreate_date"
+        android:ems="10"
+        android:hint="请输入预计的持续时间" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/tcreate_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/create_price"
+        android:layout_alignBottom="@+id/create_price"
+        android:layout_alignLeft="@+id/tcreate_time"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="请输入活动预算" />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:text="发布活动档期"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/create_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_top"
+        android:layout_toLeftOf="@+id/create_button"
+        android:text="活动地点"
+        android:padding="8sp"
+        android:textSize="17sp" />
+
+    <Spinner
+        android:id="@+id/create_choose"
+        android:layout_width="70sp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/create_tchoose"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/create_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_time"
+        android:padding="8sp"
+        android:layout_toLeftOf="@+id/tcreate_price"
+        android:text="活动费用"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/create_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_date"
+        android:padding="8sp"
+        android:layout_toLeftOf="@+id/tcreate_time"
+        android:text="持续时间"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/create_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/create_tchoose"
+        android:layout_toLeftOf="@+id/tcreate_date"
+        android:text="活动时间"
+        android:padding="8sp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/create_tchoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_place"
+        android:padding="8sp"
+        android:layout_toLeftOf="@+id/tcreate_date"
+        android:text="活动类型"
+        android:textSize="17sp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/activity_create.xml -->

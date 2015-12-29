@@ -138,6 +138,7 @@ public final class R {
         public static final int ImageView_ZuTuanYou_homepage_clickin=0x7f080045;
         public static final int ListView_homepage=0x7f08001e;
         public static final int ListView_qunliao=0x7f080001;
+        public static final int action_settings=0x7f080057;
         public static final int bottomList=0x7f08001f;
         public static final int bottomList_chat=0x7f080002;
         public static final int bottomList_mine=0x7f080029;
@@ -223,17 +224,18 @@ public final class R {
         public static final int activity_main=0x7f030006;
         public static final int activity_mine=0x7f030007;
         public static final int activity_my_collection=0x7f030008;
-        public static final int activity_search=0x7f030009;
-        public static final int activity_search_result=0x7f03000a;
-        public static final int activity_tour_info=0x7f03000b;
-        public static final int chat_list_item=0x7f03000c;
-        public static final int head2_homepage_item=0x7f03000d;
-        public static final int head_group_tour=0x7f03000e;
-        public static final int head_homepage_item=0x7f03000f;
-        public static final int list_item_homepage=0x7f030010;
-        public static final int my_collection_list_item=0x7f030011;
-        public static final int search_result_list_item=0x7f030012;
-        public static final int tour_info_list_item=0x7f030013;
+        public static final int activity_register=0x7f030009;
+        public static final int activity_search=0x7f03000a;
+        public static final int activity_search_result=0x7f03000b;
+        public static final int activity_tour_info=0x7f03000c;
+        public static final int chat_list_item=0x7f03000d;
+        public static final int head2_homepage_item=0x7f03000e;
+        public static final int head_group_tour=0x7f03000f;
+        public static final int head_homepage_item=0x7f030010;
+        public static final int list_item_homepage=0x7f030011;
+        public static final int my_collection_list_item=0x7f030012;
+        public static final int search_result_list_item=0x7f030013;
+        public static final int tour_info_list_item=0x7f030014;
     }
     public static final class menu {
         public static final int activity__chat=0x7f070000;
@@ -242,7 +244,8 @@ public final class R {
         public static final int group_chat=0x7f070003;
         public static final int group_tour=0x7f070004;
         public static final int main=0x7f070005;
-        public static final int search=0x7f070006;
+        public static final int register=0x7f070006;
+        public static final int search=0x7f070007;
     }
     public static final class string {
         public static final int action_search=0x7f050007;
@@ -255,6 +258,7 @@ public final class R {
         public static final int launch_name_display=0x7f050006;
         public static final int mine=0x7f050005;
         public static final int qunliao=0x7f050003;
+        public static final int title_activity_register=0x7f05000a;
     }
     public static final class style {
         /** 

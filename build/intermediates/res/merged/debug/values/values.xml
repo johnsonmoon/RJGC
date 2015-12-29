@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_search">搜索短途游</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">短途客</string>
+    <string name="duantuyou">点击进入短途游</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="homepage">主页</string>
+    <string name="kong"/>
+    <string name="launch_name_display">D游</string>
+    <string name="mine">我的</string>
+    <string name="qunliao">群聊</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="linaer_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+    <style name="rButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="rbt_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:button">@null</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

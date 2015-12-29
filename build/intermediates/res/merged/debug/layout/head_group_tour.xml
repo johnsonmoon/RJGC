@@ -1,0 +1,8 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/groupTour_imageView_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/grouptour_up"/><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/head_group_tour.xml -->
