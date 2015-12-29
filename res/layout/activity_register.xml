@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.WE.shorttour_a3.RegisterActivity"
-    android:id="@+id/">
+    tools:context="com.WE.shorttour_a3.RegisterActivity">
 
 
     <TextView
@@ -135,4 +134,25 @@
         android:layout_alignTop="@+id/button_Register_confirm"
         android:layout_toRightOf="@+id/button_Register_confirm"
         android:layout_toEndOf="@+id/button_Register_confirm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="设置密码："
+        android:id="@+id/textView5"
+        android:layout_below="@+id/editText_Register_userAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_Register_pwd"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:password="true" />
 </RelativeLayout>

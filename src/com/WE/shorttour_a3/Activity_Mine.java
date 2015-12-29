@@ -47,8 +47,8 @@ public class Activity_Mine extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_mine);
-		final Intent intent = getIntent();//»ñÈ¡Intent¶ÔÏó
-		Bundle bundle = intent.getExtras();//»ñÈ¡´«µİµÄÊı¾İ°ü
+		final Intent intent = getIntent();//ï¿½ï¿½È¡Intentï¿½ï¿½ï¿½ï¿½
+		Bundle bundle = intent.getExtras();//ï¿½ï¿½È¡ï¿½ï¿½ï¿½İµï¿½ï¿½ï¿½İ°ï¿½
 		this.init();
 		
 		this.Button_ra_homepage_1_mine.setOnClickListener(new OnClickListener() {
@@ -99,17 +99,21 @@ public class Activity_Mine extends Activity {
 		
 		textView1 = (TextView)findViewById(R.id.textView1_mine_);
 		
-		//½øÈëÎÒµÄ×ÊÁÏ
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½
 		imageView1.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				
+				Intent intent_Register = new Intent(Activity_Mine.this, RegisterActivity.class);
+				Bundle bundle = new Bundle();
+				bundle.putString("userID", Activity_Mine.this.userID);
+				intent_Register.putExtras(bundle);
+				startActivity(intent_Register);
 			}
 		});
 		
-		//½øÈëÎÒµÄ×éÍÅĞÅÏ¢
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 		imageView2.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -123,7 +127,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//½øÈëÎÒµÄÊÕ²Ø
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½Õ²ï¿½
 		imageView3.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -137,7 +141,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//½øÈëÎÒµÄÇ®°ü
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½Ç®ï¿½ï¿½
 		imageView4.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -146,7 +150,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//½øÈëÎÒµÄ»ı·Ö
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ÒµÄ»ï¿½ï¿½
 		imageView5.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -155,7 +159,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//½øÈëÁªÏµ¿Í·ş
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½Í·ï¿½
 		imageView6.setOnClickListener(new OnClickListener() {
 			
 			@Override

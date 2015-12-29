@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:2:1-121:12
+ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:2:1-122:12
 	xmlns:android
 		ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:2:11-69
 	package
@@ -18,7 +18,7 @@ ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:7:5
 	android:minSdkVersion
 		ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:8:9-35
 application
-ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:11:5-119:19
+ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:11:5-120:19
 	android:label
 		ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:14:9-41
 	android:allowBackup
@@ -206,6 +206,6 @@ ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:112
 activity#com.WE.shorttour_a3.RegisterActivity
 ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:115:9-118:20
 	android:label
-		ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:117:13-60
+		ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:117:13-33
 	android:name
 		ADDED from C:\Users\Administrator\workspace\ShortTour_A4\AndroidManifest.xml:116:13-45

@@ -114,7 +114,7 @@
         </activity>
         <activity
             android:name="com.WE.shorttour_a3.RegisterActivity"
-            android:label="@string/title_activity_register" >
+            android:label="用户注册" >
         </activity>
     </application>
 
