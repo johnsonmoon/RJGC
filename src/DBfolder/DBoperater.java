@@ -16,12 +16,12 @@ public class DBoperater extends SQLiteOpenHelper {
 	}
 
 	@Override
-	public void onCreate(SQLiteDatabase db) {//������ݿ�
+	public void onCreate(SQLiteDatabase db) {//
 		// TODO Auto-generated method stub
 		db.execSQL("create table GroupMessage ( Group_id integer primary key, Group_AddUserId integer not null, Group_name char(200) not null, Group_image char(100), Group_mess char(1000), Group_time char(11) not null, Group_cehua char(2000))");
 				
 		db.execSQL("create table UserMessage (  User_id integer primary key, User_pwd char(16) not null, User_name char(20) not null, User_age integer not null, User_qq char(10) not null, User_numb char(11) not null, User_addre char(20) not null)");
-		//user need password by the way�����
+		//user need password by the way
 		db.execSQL("create table Interest ( date_id integer primary key,user_id char(20) not null, group_id char(20) not null)");
 
 		db.execSQL("create table cherGroup ( user_id char(20) primary key,group_name char(20) not null)");

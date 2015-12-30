@@ -116,6 +116,10 @@
             android:name=".RegisterActivity"
             android:label="用户注册" >
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="用户登陆">
+        </activity>
 
     </application>
 
