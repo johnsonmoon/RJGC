@@ -8,8 +8,8 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v4.view.MenuItemCompat;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,9 +21,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnClickListener;
 
+import DBfolder.DBoperater;
+
 public class Activity_Mine extends Activity {
 	
-	private String userID;
+	private String userName;
+	private String userPwd;
+
+	private DBoperater ope;
+	private SQLiteDatabase db;
 
 	private RadioButton Button_ra_qunliao_1_mine;
 	private RadioButton Button_ra_homepage_1_mine;
@@ -47,9 +53,12 @@ public class Activity_Mine extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_mine);
-		final Intent intent = getIntent();//��ȡIntent����
-		Bundle bundle = intent.getExtras();//��ȡ���ݵ���ݰ�
+		final Intent intent = getIntent();//��
+		Bundle bundle = intent.getExtras();//�
+		this.ope = new DBoperater(this);
+		this.db = ope.getWritableDatabase();
 		this.init();
+
 		
 		this.Button_ra_homepage_1_mine.setOnClickListener(new OnClickListener() {
 			
@@ -99,7 +108,7 @@ public class Activity_Mine extends Activity {
 		
 		textView1 = (TextView)findViewById(R.id.textView1_mine_);
 		
-		//�����ҵ�����
+		//start RegisterActivity��
 		imageView1.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -113,7 +122,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//�����ҵ�������Ϣ
+		//start TourInfoActivity
 		imageView2.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -127,7 +136,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//�����ҵ��ղ�
+		//start MyCollectionActivity
 		imageView3.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -141,7 +150,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//�����ҵ�Ǯ��
+		//
 		imageView4.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -150,7 +159,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//�����ҵĻ��
+		//
 		imageView5.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -159,7 +168,7 @@ public class Activity_Mine extends Activity {
 			}
 		});
 		
-		//������ϵ�ͷ�
+		//
 		imageView6.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -204,7 +213,17 @@ public class Activity_Mine extends Activity {
 			}
 		}
 	}
-	
-	
-	
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		if((requestCode == resultCode) &&(resultCode == 0x11)){//If return successfully from Login activity.
+			Intent i = getIntent();
+			Bundle b = i.getExtras();
+			this.userName = b.getString("userName");
+			this.userPwd = b.getString("userPwd");
+
+			this.db.execSQL("insert into AreadyUserMessage values(?, ?, ?)", new String[]{this.userName, this.userPwd, "Y"});
+		}
+	}
 }

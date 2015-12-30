@@ -22,10 +22,12 @@ public class DBoperater extends SQLiteOpenHelper {
 				
 		db.execSQL("create table UserMessage (  User_id integer primary key, User_pwd char(16) not null, User_name char(20) not null, User_age integer not null, User_qq char(10) not null, User_numb char(11) not null, User_addre char(20) not null)");
 		//user need password by the way
-		db.execSQL("create table Interest ( date_id integer primary key,user_id char(20) not null, group_id char(20) not null)");
+		db.execSQL("create table Interest ( date_id integer primary key,User_id char(20) not null, group_id char(20) not null)");
 
-		db.execSQL("create table cherGroup ( user_id char(20) primary key,group_name char(20) not null)");
-	 
+		db.execSQL("create table cherGroup ( User_id char(20) primary key,group_name char(20) not null)");
+
+		db.execSQL("create table AreadyUserMessage(User_name char(20) primary key, User_pwd char(16), isLogin char(1) not null)");
+		//needed for automatic Login while the app launching
 	}
 
 	@Override
