@@ -52,4 +52,13 @@
         android:id="@+id/button2_Login_cancel"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/button_Login_confirm" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点这儿注册新用户"
+        android:id="@+id/button_Login_register"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/activity_login.xml -->

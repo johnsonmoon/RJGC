@@ -4,10 +4,12 @@ import com.WE.shorttour_a3.MainActivity;
 import com.WE.shorttour_a3.R;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -27,6 +29,7 @@ public class Activity_Mine extends Activity {
 	
 	private String userName;
 	private String userPwd;
+	private boolean isLogin;
 
 	private DBoperater ope;
 	private SQLiteDatabase db;
@@ -47,6 +50,20 @@ public class Activity_Mine extends Activity {
 	public Activity_Mine() {
 		// TODO Auto-generated constructor stub
 	}
+
+	public void initUserInfo(){//See whether there is a user who has login.
+		Cursor cursor = db.rawQuery("select * from AlreadyUserMessage", null);
+		if(cursor.moveToNext()){
+			this.userName = new String(cursor.getString(cursor.getColumnIndex("User_name")).trim());
+			this.userPwd = new String(cursor.getString(cursor.getColumnIndex("User_pwd")).trim());
+			if(cursor.getString(cursor.getColumnIndex("isLogin")).trim().equals("Y")){
+				this.isLogin = true;
+			}
+			else{
+				this.isLogin = false;
+			}
+		}
+	}
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +74,8 @@ public class Activity_Mine extends Activity {
 		Bundle bundle = intent.getExtras();//�
 		this.ope = new DBoperater(this);
 		this.db = ope.getWritableDatabase();
+		this.isLogin = false;
+		this.initUserInfo();
 		this.init();
 
 		
@@ -114,11 +133,14 @@ public class Activity_Mine extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent_Register = new Intent(Activity_Mine.this, RegisterActivity.class);
-				Bundle bundle = new Bundle();
-				bundle.putString("userID", Activity_Mine.this.userID);
-				intent_Register.putExtras(bundle);
-				startActivity(intent_Register);
+				if (Activity_Mine.this.isLogin){
+					//Jump into a new Activity that show the detail message of this user.
+					//***********************************************************************************************************
+				}
+				else{
+					Intent intent = new Intent(Activity_Mine.this, LoginActivity.class);
+					startActivityForResult(intent, 0x11);
+				}
 			}
 		});
 		
@@ -130,7 +152,7 @@ public class Activity_Mine extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent_tourInfo = new Intent(Activity_Mine.this, TourInfoActivity.class);
 				Bundle bundle = new Bundle();
-				bundle.putString("userID",  Activity_Mine.this.userID);
+				bundle.putString("userName",  Activity_Mine.this.userName);
 				intent_tourInfo.putExtras(bundle);
 				startActivity(intent_tourInfo);
 			}
@@ -144,7 +166,7 @@ public class Activity_Mine extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent_myCollection = new Intent(Activity_Mine.this, MyCollectionActivity.class);
 				Bundle bundle = new Bundle();
-				bundle.putString("userID",  Activity_Mine.this.userID);
+				bundle.putString("userName",  Activity_Mine.this.userName);
 				intent_myCollection.putExtras(bundle);
 				startActivity(intent_myCollection);
 			}
@@ -222,8 +244,9 @@ public class Activity_Mine extends Activity {
 			Bundle b = i.getExtras();
 			this.userName = b.getString("userName");
 			this.userPwd = b.getString("userPwd");
-
-			this.db.execSQL("insert into AreadyUserMessage values(?, ?, ?)", new String[]{this.userName, this.userPwd, "Y"});
+			this.db.execSQL("delete from AlreadyUserMessage");
+			this.db.execSQL("insert into AlreadyUserMessage values(?, ?, ?)", new String[]{this.userName, this.userPwd, "Y"});
+			this.isLogin = true;
 		}
 	}
 }

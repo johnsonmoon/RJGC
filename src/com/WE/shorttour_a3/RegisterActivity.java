@@ -1,6 +1,7 @@
 package com.WE.shorttour_a3;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -67,6 +68,13 @@ public class RegisterActivity extends Activity {
 					RegisterActivity.this.EuserQQ.setText("");
 					RegisterActivity.this.EuserAge.setText("");
 					RegisterActivity.this.EuserAddress.setText("");
+					Intent intent = new Intent();
+					Bundle bundle = new Bundle();
+					bundle.putString("userName", name);
+					bundle.putString("userPwd", pwd);
+					intent.putExtras(bundle);
+					setResult(37, intent);
+					RegisterActivity.this.finish();
 				}
 			}
 		});

@@ -17,12 +17,12 @@ import android.widget.SimpleAdapter;
 
 public class TourInfoActivity extends Activity {
 	
-	private String userID;
+	private String userName;
 
 	private ListView lv;
 	private ArrayList<HashMap<String, Object>> mapList;
 	
-	private String[] item_names = {"´óÃ÷É½", "º¼ÖÝÌ«×ÓÍå¹«Ô°", "ÐÂÒ¶´å", "º¼ÖÝÒ°Éú¶¯ÎïÔ°", "Î÷Ïª¹ú¼ÒÊªµØ¹«Ô°"};
+	private String[] item_names = {"ï¿½ï¿½ï¿½ï¿½É½", "ï¿½ï¿½ï¿½ï¿½Ì«ï¿½ï¿½ï¿½å¹«Ô°", "ï¿½ï¿½Ò¶ï¿½ï¿½", "ï¿½ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ï¿½ï¿½Ô°", "ï¿½ï¿½Ïªï¿½ï¿½ï¿½Êªï¿½Ø¹ï¿½Ô°"};
 	
 	private	int[] item_pictures = {R.drawable.place9, R.drawable.place2, R.drawable.place1, 
 			R.drawable.place4, R.drawable.place5};
@@ -39,7 +39,7 @@ public class TourInfoActivity extends Activity {
 		setContentView(R.layout.activity_tour_info);
 		final Intent intent = getIntent();
 		Bundle bundle = intent.getExtras();
-		this.userID = bundle.getString("userID");
+		this.userName = bundle.getString("userName");
 		
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);

@@ -17,13 +17,13 @@ import android.widget.SimpleAdapter;
 
 public class MyCollectionActivity extends Activity {
 	
-	private String userID;
+	private String userName;
 
 	private ListView lv;
 	private ArrayList<HashMap<String, Object>> mapList;
 	
-	private String[] item_names = {"º¼ÖÝ¼«µØº£Ñó¹«Ô°", "Ã©¼Ò²º", "¸»´ºÌÒÔ´", "Õã´óÖ®½­Ð£Çø", "º¼ÖÝÞ¹ÒÂ²Ý×¯Ô°", "º¼ÖÝ½¨µÂÇéÈË¹È", "ÁÙ°²Èð¾§¶´", "º¼ÖÝË«ÏªÆ¯Á÷¾°Çø", 
-			"º¼ÖÝÉ½¹µ¹µ·ç¾°Çø", "Ç®ÌÁ½­"};
+	private String[] item_names = {"ï¿½ï¿½ï¿½Ý¼ï¿½ï¿½Øºï¿½ï¿½ï¿½Ô°", "Ã©ï¿½Ò²ï¿½", "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´", "ï¿½ï¿½ï¿½Ö®ï¿½ï¿½Ð£ï¿½ï¿½", "ï¿½ï¿½ï¿½ï¿½Þ¹ï¿½Â²ï¿½×¯Ô°", "ï¿½ï¿½ï¿½Ý½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½", "ï¿½Ù°ï¿½ï¿½ð¾§¶ï¿½", "ï¿½ï¿½ï¿½ï¿½Ë«ÏªÆ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", 
+			"ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½ç¾°ï¿½ï¿½", "Ç®ï¿½ï¿½ï¿½ï¿½"};
 	
 	private	int[] item_pictures = {R.drawable.place11, 
 			R.drawable.place12, R.drawable.place13, R.drawable.place14, R.drawable.place15, 
@@ -42,7 +42,7 @@ public class MyCollectionActivity extends Activity {
 		setContentView(R.layout.activity_my_collection);
 		final Intent intent = getIntent();
 		Bundle bundle = intent.getExtras();
-		this.userID = bundle.getString("userID");
+		this.userName = bundle.getString("userName");
 		
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.nsd.NsdManager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,6 +26,7 @@ public class LoginActivity extends Activity{
     private EditText userPwdInput;
     private Button btnConfirm;
     private Button btnCancel;
+    private Button btnRegister;
 
     private String userNameConfirm;//User name that had already confirmed correct
     private String userPwdConfirm;//User password that had already confirmed correct
@@ -37,6 +39,7 @@ public class LoginActivity extends Activity{
         this.userPwdInput = (EditText)findViewById(R.id.editText_Login_userPwd);
         this.btnConfirm = (Button)findViewById(R.id.button_Login_confirm);
         this.btnCancel = (Button)findViewById(R.id.button2_Login_cancel);
+        this.btnRegister = (Button)findViewById(R.id.button_Login_register);
         this.ope = new DBoperater(this);
         this.db = ope.getReadableDatabase();
 
@@ -49,6 +52,14 @@ public class LoginActivity extends Activity{
             @Override
             public void onClick(View v) {
                 LoginActivity.this.finish();
+            }
+        });
+
+        this.btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivityForResult(intent, 37);
             }
         });
 
@@ -107,5 +118,18 @@ public class LoginActivity extends Activity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == 37 && resultCode == 37){
+            Intent i = getIntent();
+            Bundle b = i.getExtras();
+            //String userName = new String(b.getString("userName").trim());
+            //String userPwd = new String(b.getString("userPwd").trim());
+            //this.userNameInput.setText(userName);
+            //this.userPwdInput.setText(userPwd);
+        }
     }
 }

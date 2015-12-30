@@ -26,7 +26,7 @@ public class DBoperater extends SQLiteOpenHelper {
 
 		db.execSQL("create table cherGroup ( User_id char(20) primary key,group_name char(20) not null)");
 
-		db.execSQL("create table AreadyUserMessage(User_name char(20) primary key, User_pwd char(16), isLogin char(1) not null)");
+		db.execSQL("create table AlreadyUserMessage(User_name char(20) primary key, User_pwd char(16), isLogin char(1) not null)");
 		//needed for automatic Login while the app launching
 	}
 
