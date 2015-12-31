@@ -35,4 +35,4 @@
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall" />
     
-</RelativeLayout><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/search_result_list_item.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/search_result_list_item.xml -->

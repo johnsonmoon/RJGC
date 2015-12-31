@@ -47,4 +47,4 @@
         android:layout_alignTop="@+id/tourInfo_list_item_textView_up"
         android:src="@drawable/icon_delete" />
     
-</RelativeLayout><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/tour_info_list_item.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/tour_info_list_item.xml -->

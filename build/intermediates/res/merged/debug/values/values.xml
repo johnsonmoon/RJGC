@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_search">搜索短途游</string>
     <string name="action_settings">Settings</string>
@@ -17,7 +17,7 @@
     <string name="mine">我的</string>
     <string name="qunliao">群聊</string>
     <string name="title_activity_register">RegisterActivity</string>
-    <!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

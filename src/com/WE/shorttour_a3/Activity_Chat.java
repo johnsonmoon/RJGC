@@ -30,8 +30,8 @@ public class Activity_Chat extends Activity {
 	private ListView chatList;
 	private List<Map<String, Object>> lists;
 	
-	private String[] names = { "飞哥", "小白", "王子", "威廉", "Andy", "Moon", "大蒙蒙",
-			"猎户", "飞蛾", "火枪", "水塔", "mission", "Johnson",
+	private String[] names = { "jack", "john", "musue", "dag", "Andy", "Moon", "joe",
+			"leo", "mike", "mi", "jak", "mission", "Johnson",
 			"Sandy", "Jack", "york", "Hey_Man", "Joe", "Fox", "Plane"};
 	private int[] images = { R.drawable.people1, R.drawable.people2,
 			R.drawable.people3, R.drawable.people4, R.drawable.people5, R.drawable.people6, 
@@ -39,11 +39,11 @@ public class Activity_Chat extends Activity {
 			R.drawable.people11, R.drawable.people12, R.drawable.people13, R.drawable.people14,
 			R.drawable.people15, R.drawable.people16, R.drawable.people17, R.drawable.people18,
 			R.drawable.people19, R.drawable.people20};
-	private String[] msg = { "[语音]", "[图片]", "亲，请回复数字 1....", "过几天就回家", "It's a little bit boaring...",
-			"好得", "晚安","你好！", "[表情]", "是吗", "帮我一个忙", "再见！", "好得", "[语音]",
-			"Oh yeah!", "How r u?", "额。。。。", "明天什么时候？", "ok", "好吧"};
-	private String[] time = {"刚才", "16:20", "12:10", "7:56", "6:30", "3:20", "昨天", "昨天", "昨天", "星期四",
-			"星期四", "星期四", "星期四", "星期四", "星期三", "星期三", "星期二", "星期一", "星期一", "星期天"};
+	private String[] msg = { "[锟斤拷锟斤拷]", "[---]", "jshagiug", "Yes I'm good", "It's a little bit boaring...",
+			"what r u doing ?", "yeah","See u ", "[   ]", "hahah", "go", "alright", "lets move!", "[锟斤拷锟斤拷]",
+			"Oh yeah!", "How r u?", "i don't think so !", "wonderful!", "ok", "may you dreams come true!"};
+	private String[] time = {"yesterday", "16:20", "12:10", "7:56", "6:30", "3:20", "Monday", "Monday", "Tuesday", "Tuesday",
+			"Tuesday", "Wednesday", "Wednesday", "Wednesday", "Thursday", "Thursday", "Thursday", "Friday", "Friday", "Friday"};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +61,7 @@ public class Activity_Chat extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				//intent.setClass(Activity_Chat.this, MainActivity.class);
-				//startActivity(intent);  //开始跳转
+				//startActivity(intent);  //锟斤拷始锟斤拷转
 				changeRadioButtonImage(v.getId());
 				setResult(0x100, intent);
 				Activity_Chat.this.finish();
@@ -76,7 +76,7 @@ public class Activity_Chat extends Activity {
 				// TODO Auto-generated method stub
 				
 				intent.setClass(Activity_Chat.this, Activity_Mine.class);
-				startActivity(intent);  //开始跳转
+				startActivity(intent);  //锟斤拷始锟斤拷转
 				finish();
 			}
 		});

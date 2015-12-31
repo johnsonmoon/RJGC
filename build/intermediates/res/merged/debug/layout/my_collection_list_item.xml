@@ -47,4 +47,4 @@
         android:layout_alignTop="@+id/myCollection_list_item_textView_up"
         android:src="@drawable/icon_shoucang_" />
     
-</RelativeLayout><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/my_collection_list_item.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/my_collection_list_item.xml -->
