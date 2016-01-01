@@ -8,6 +8,10 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="21" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -118,9 +122,12 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="用户登陆">
+            android:label="用户登陆" >
         </activity>
-
+        <activity
+            android:name=".UserInfomationActivity"
+            android:label="用户详细信息" >
+        </activity>
     </application>
 
 </manifest>

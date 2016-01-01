@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.WE.shorttour_a3.UserInfomationActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:id="@+id/button_UserInfo_btnConfirm"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/button_UserInfo_btnCancel"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button_UserInfo_btnConfirm"
+        android:layout_toEndOf="@+id/button_UserInfo_btnConfirm" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消登陆"
+        android:id="@+id/button_UserInfo_btnLogout"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button_UserInfo_btnCancel"
+        android:layout_toEndOf="@+id/button_UserInfo_btnCancel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="用户id："
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_UserInfo_userID"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="用户名："
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView_UserInfo_userID"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_UserInfo_userName"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="年龄："
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView_UserInfo_userName"
+        android:layout_alignLeft="@+id/textView_UserInfo_userName"
+        android:layout_alignStart="@+id/textView_UserInfo_userName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_UserInfo_userAge"
+        android:layout_below="@+id/textView12"
+        android:layout_alignRight="@+id/textView_UserInfo_userName"
+        android:layout_alignEnd="@+id/textView_UserInfo_userName"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="QQ："
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView_UserInfo_userAge"
+        android:layout_alignLeft="@+id/textView_UserInfo_userAge"
+        android:layout_alignStart="@+id/textView_UserInfo_userAge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_UserInfo_userQQ"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="电话："
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView_UserInfo_userQQ"
+        android:layout_alignLeft="@+id/textView_UserInfo_userQQ"
+        android:layout_alignStart="@+id/textView_UserInfo_userQQ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_UserInfo_userPhone"
+        android:layout_below="@+id/textView16"
+        android:layout_alignRight="@+id/textView_UserInfo_userQQ"
+        android:layout_alignEnd="@+id/textView_UserInfo_userQQ"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="地址："
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView_UserInfo_userPhone"
+        android:layout_alignLeft="@+id/textView_UserInfo_userPhone"
+        android:layout_alignStart="@+id/textView_UserInfo_userPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_UserInfo_userAddress"
+        android:layout_below="@+id/textView18"
+        android:layout_alignRight="@+id/textView_UserInfo_userPhone"
+        android:layout_alignEnd="@+id/textView_UserInfo_userPhone"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/activity_user_infomation.xml -->

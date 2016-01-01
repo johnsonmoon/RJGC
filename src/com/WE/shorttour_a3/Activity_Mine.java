@@ -136,6 +136,11 @@ public class Activity_Mine extends Activity {
 				if (Activity_Mine.this.isLogin){
 					//Jump into a new Activity that show the detail message of this user. Also, user can logout.
 					//***********************************************************************************************************
+					Intent intent = new Intent(Activity_Mine.this, UserInfomationActivity.class);
+					Bundle bundle = new Bundle();
+					bundle.putString("userName", Activity_Mine.this.userName);
+					intent.putExtras(bundle);
+					startActivityForResult(intent, 0x07);
 				}
 				else{
 					Intent intent = new Intent(Activity_Mine.this, LoginActivity.class);
@@ -246,6 +251,14 @@ public class Activity_Mine extends Activity {
 			this.db.execSQL("delete from AlreadyUserMessage");
 			this.db.execSQL("insert into AlreadyUserMessage values(?, ?, ?)", new String[]{this.userName, this.userPwd, "Y"});
 			this.isLogin = true;
+		}
+		if((requestCode == 0x07) && (resultCode == 0x07)){//If return successfully from UserInfomationActivity
+			Bundle b = data.getExtras();
+			boolean logout = b.getBoolean("Logout");
+			if(logout){//If pressed the logout button.
+				this.db.execSQL("delete from AlreadyUserMessage");
+				this.isLogin = false;
+			}
 		}
 	}
 }

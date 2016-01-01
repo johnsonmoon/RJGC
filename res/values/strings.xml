@@ -12,5 +12,6 @@
     <string name="duantuyou">点击进入短途游</string>
     <string name="kong"></string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_user_infomation">UserInfomationActivity</string>
 
 </resources>

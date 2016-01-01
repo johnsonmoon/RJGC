@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:2:1-126:12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:2:1-133:12
 	xmlns:android
 		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:2:11-69
 	package
@@ -17,201 +17,219 @@ ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml
 		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
 		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:8:9-35
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:11:5-89
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:11:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:12:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:13:5-88
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:13:30-85
 application
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:11:5-124:19
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:15:5-131:19
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:13:9-45
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:17:9-45
 	android:theme
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:19:9-40
 activity#com.WE.shorttour_a3.MainActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:16:9-24:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:20:9-28:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:21:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:26:27-74
 activity#com.WE.shorttour_a3.Activity_Mine
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:25:9-33:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:27:13-31
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:31:13-31
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:26:13-42
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:30:13-42
 intent-filter#android.intent.action.Activity_Mine+android.intent.category.Activity_Mine
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.Activity_Mine
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:29:17-78
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:33:17-78
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:29:25-75
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:33:25-75
 category#android.intent.category.Activity_Mine
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:31:17-82
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:35:17-82
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:31:27-79
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:35:27-79
 activity#com.WE.shorttour_a3.Activity_Chat
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:34:9-42:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:38:9-46:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:36:13-31
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:40:13-31
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:35:13-42
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:39:13-42
 intent-filter#android.intent.action.Activity_Chat+android.intent.category.Activity_Chat
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.Activity_Chat
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:38:17-78
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:42:17-78
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:38:25-75
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:42:25-75
 category#android.intent.category.Activity_Chat
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:40:17-82
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:44:17-82
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:40:27-79
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:44:27-79
 activity#com.WE.shorttour_a3.SearchActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:43:9-51:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:47:9-55:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:44:13-43
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:48:13-43
 intent-filter#android.intent.action.SearchActivity+android.intent.category.SearchActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:46:13-50:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:50:13-54:29
 action#android.intent.action.SearchActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:47:17-79
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:51:17-79
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:47:25-76
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:51:25-76
 category#android.intent.category.SearchActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:49:17-83
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:53:17-83
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:49:27-80
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:53:27-80
 activity#com.WE.shorttour_a3.IntroductionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:52:9-60:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:56:9-64:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:54:13-37
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:53:13-49
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:57:13-49
 intent-filter#android.intent.action.IntroductionActivity+android.intent.category.IntroductionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:55:13-59:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:59:13-63:29
 action#android.intent.action.IntroductionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:56:17-85
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:60:17-85
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:56:25-82
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:60:25-82
 category#android.intent.category.IntroductionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:58:17-89
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:62:17-89
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:58:27-86
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:62:27-86
 activity#com.WE.shorttour_a3.GroupTour_Activity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:61:9-69:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:65:9-73:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:63:13-32
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:67:13-32
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:62:13-47
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:66:13-47
 intent-filter#android.intent.action.GroupTour_Activity+android.intent.category.GroupTour_Activity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:64:13-68:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:68:13-72:29
 action#android.intent.action.GroupTour_Activity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:65:17-83
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:69:17-83
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:65:25-80
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:69:25-80
 category#android.intent.category.GroupTour_Activity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:67:17-87
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:71:17-87
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:67:27-84
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:71:27-84
 activity#com.WE.shorttour_a3.SearchResultActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:70:9-78:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:74:9-82:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:72:13-33
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:76:13-33
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:71:13-49
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:75:13-49
 intent-filter#android.intent.action.SearchResultActivity+android.intent.category.SearchResultActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:73:13-77:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:77:13-81:29
 action#android.intent.action.SearchResultActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:74:17-85
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:78:17-85
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:74:25-82
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:78:25-82
 category#android.intent.category.SearchResultActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:76:17-89
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:80:17-89
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:76:27-86
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:80:27-86
 activity#com.WE.shorttour_a3.CreateActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:79:9-87:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:83:9-91:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:81:13-36
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:85:13-36
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:80:13-43
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:84:13-43
 intent-filter#android.intent.action.CreateActivity+android.intent.category.CreateActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:82:13-86:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:86:13-90:29
 action#android.intent.action.CreateActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:83:17-79
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:87:17-79
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:83:25-76
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:87:25-76
 category#android.intent.category.CreateActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:85:17-83
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:89:17-83
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:85:27-80
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:89:27-80
 activity#com.WE.shorttour_a3.GroupChatActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:88:9-96:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:92:9-100:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:90:13-31
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:94:13-31
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:89:13-46
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:93:13-46
 intent-filter#android.intent.action.GroupChatActivity+android.intent.category.GroupChatActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:91:13-95:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:95:13-99:29
 action#android.intent.action.GroupChatActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:92:17-82
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:96:17-82
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:92:25-79
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:96:25-79
 category#android.intent.category.GroupChatActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:94:17-86
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:98:17-86
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:94:27-83
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:98:27-83
 activity#com.WE.shorttour_a3.TourInfoActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:97:9-105:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:101:9-109:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:99:13-35
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:103:13-35
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:98:13-45
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:102:13-45
 intent-filter#android.intent.action.TourInfoActivity+android.intent.category.TourInfoActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:100:13-104:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:104:13-108:29
 action#android.intent.action.TourInfoActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:101:17-81
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:105:17-81
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:101:25-78
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:105:25-78
 category#android.intent.category.TourInfoActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:103:17-85
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:107:17-85
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:103:27-82
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:107:27-82
 activity#com.WE.shorttour_a3.MyCollectionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:106:9-114:20
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:110:9-118:20
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:108:13-33
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:112:13-33
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:107:13-49
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:111:13-49
 intent-filter#android.intent.action.MyCollectionActivity+android.intent.category.MyCollectionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:109:13-113:29
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:113:13-117:29
 action#android.intent.action.MyCollectionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:110:17-85
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:114:17-85
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:110:25-82
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:114:25-82
 category#android.intent.category.MyCollectionActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:112:17-89
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:116:17-89
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:112:27-86
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:116:27-86
 activity#com.WE.shorttour_a3.RegisterActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:115:9-118:20
-	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:117:13-33
-	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:116:13-45
-activity#com.WE.shorttour_a3.LoginActivity
 ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:119:9-122:20
 	android:label
 		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:121:13-33
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:120:13-42
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:120:13-45
+activity#com.WE.shorttour_a3.LoginActivity
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:123:9-126:20
+	android:label
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:125:13-33
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:124:13-42
+activity#com.WE.shorttour_a3.UserInfomationActivity
+ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:127:9-130:20
+	android:label
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:129:13-35
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\RJGC\AndroidManifest.xml:128:13-51

@@ -35,7 +35,8 @@
         android:id="@+id/editText_Login_userPwd"
         android:layout_below="@+id/textView7"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:password="true" />
 
     <Button
         android:layout_width="wrap_content"

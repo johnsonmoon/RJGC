@@ -17,6 +17,7 @@
     <string name="mine">我的</string>
     <string name="qunliao">群聊</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_user_infomation">UserInfomationActivity</string>
     <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
