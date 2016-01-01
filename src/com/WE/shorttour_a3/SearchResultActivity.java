@@ -30,9 +30,9 @@ public class SearchResultActivity extends Activity {
 	private ListView lv;
 	private ArrayList<HashMap<String, Object>> mapList;
 	
-	private String[] item_names = {"大明山", "杭州太子湾公园", "新叶村", "杭州野生动物园", "西溪国家湿地公园", "杭州宋城", "千岛湖", "江墅铁路遗址公园", 
-			"杭州天目山", "杭州西湖", "杭州极地海洋公园", "茅家埠", "富春桃源", "浙大之江校区", "杭州薰衣草庄园", "杭州建德情人谷", "临安瑞晶洞", "杭州双溪漂流景区", 
-			"杭州山沟沟风景区", "钱塘江"};
+	private String[] item_names = {"a", "b", "c", "d", "e", "f", "g", "h",
+			"i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+			"s", "t"};
 	
 	private	int[] item_pictures = {R.drawable.place9, R.drawable.place2, R.drawable.place1, 
 			R.drawable.place4, R.drawable.place5, R.drawable.place6, R.drawable.place7, 

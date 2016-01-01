@@ -40,9 +40,9 @@ public class MainActivity extends Activity {
 	private ListView lv;
 	private ArrayList<HashMap<String, Object>> mapList;
 	
-	private String[] item_names = {"´óÃ÷É½", "º¼ÖİÌ«×ÓÍå¹«Ô°", "ĞÂÒ¶´å", "º¼ÖİÒ°Éú¶¯ÎïÔ°", "Î÷Ïª¹ú¼ÒÊªµØ¹«Ô°", "º¼ÖİËÎ³Ç", "Ç§µººş", "½­ÊûÌúÂ·ÒÅÖ·¹«Ô°", 
-					"º¼ÖİÌìÄ¿É½", "º¼ÖİÎ÷ºş", "º¼Öİ¼«µØº£Ñó¹«Ô°", "Ã©¼Ò²º", "¸»´ºÌÒÔ´", "Õã´óÖ®½­Ğ£Çø", "º¼ÖİŞ¹ÒÂ²İ×¯Ô°", "º¼Öİ½¨µÂÇéÈË¹È", "ÁÙ°²Èğ¾§¶´", "º¼ÖİË«ÏªÆ¯Á÷¾°Çø", 
-					"º¼ÖİÉ½¹µ¹µ·ç¾°Çø", "Ç®ÌÁ½­"};
+	private String[] item_names = {"a", "b", "c", "d", "e", "f", "g", "h",
+					"i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+					"s", "t"};
 	
 	private	int[] item_pictures = {R.drawable.place9, R.drawable.place2, R.drawable.place1, 
 					R.drawable.place4, R.drawable.place5, R.drawable.place6, R.drawable.place7, 
@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
 					R.drawable.place16, R.drawable.place17, R.drawable.place18, R.drawable.place19, 
 					R.drawable.place20};
 	
-	final int CODE_ACTIVITY_MINE = 0x717;//ÇëÇóÂëActivity_Mine
+	final int CODE_ACTIVITY_MINE = 0x717;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Activity_Mine
 	final int CODE_ACTIVITY_CHAT = 0x100;//=================
 	
 	@Override
@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		this.init();
 		
-		//´Ë´¦Ìí¼Ó¼àÌı
+		//ï¿½
 		this.Button_ra_homepage_1.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
 				changeRadioButtonImage(v.getId());
 				Intent intent_Activity_Mine = new Intent(MainActivity.this, Activity_Mine.class);
 				Bundle bundle_Activity_Mine = new Bundle();
-				//´Ë´¦Ìí¼Ó´«µİĞÅÏ¢
+				//
 				intent_Activity_Mine.putExtras(bundle_Activity_Mine);
 				startActivityForResult(intent_Activity_Mine, MainActivity.this.CODE_ACTIVITY_MINE);
 			}
@@ -166,7 +166,7 @@ public class MainActivity extends Activity {
 		});
 	}
 	
-	//ÉèÖÃÁÙÊ±Êı¾İ
+	//
 	public void Set_ListView_Data(){
 		
 		for(int i = 0; i < this.item_names.length; i++){
@@ -184,7 +184,7 @@ public class MainActivity extends Activity {
 		super.onActivityResult(requestCode, resultCode, data);
 		this.changeRadioButtonImage(R.id.Button_homepage_1);
 		if(requestCode == this.CODE_ACTIVITY_MINE && resultCode == this.CODE_ACTIVITY_MINE){
-			//Êı¾İÀ´×ÔÓÚActivity_Mine
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Activity_Mine
 			this.changeRadioButtonImage(R.id.Button_homepage_1);
 		}
 		if(requestCode == this.CODE_ACTIVITY_CHAT && resultCode == this.CODE_ACTIVITY_CHAT){
@@ -222,7 +222,7 @@ public class MainActivity extends Activity {
 		// TODO Auto-generated method stub
 		if(keyCode == KeyEvent.KEYCODE_BACK){
 			if(i == 0){
-				Toast.makeText(this,  "ÔÙ°´Ò»´Î·µ»Ø¼üÍË³ö³ÌĞò",  Toast.LENGTH_SHORT).show();
+				Toast.makeText(this,  "ï¿½Ù°ï¿½Ò»ï¿½Î·ï¿½ï¿½Ø¼ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½",  Toast.LENGTH_SHORT).show();
 				i++;
 			}else{
 				this.finish();

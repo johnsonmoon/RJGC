@@ -60,21 +60,27 @@ public class RegisterActivity extends Activity {
 					new dialog(RegisterActivity.this, "There should not be empty EditTexts!");
 				}
 				else{
-					db.execSQL("insert into UserMessage values(?, ?, ?, ?, ?, ?, ?)", new Object[]{ userID, pwd, name, age, QQ, phone, Address});
-					new dialog(RegisterActivity.this, "Register succeded!");
-					RegisterActivity.this.EuserName.setText("");
-					RegisterActivity.this.EuserPwd.setText("");
-					RegisterActivity.this.EuserPhone.setText("");
-					RegisterActivity.this.EuserQQ.setText("");
-					RegisterActivity.this.EuserAge.setText("");
-					RegisterActivity.this.EuserAddress.setText("");
-					Intent intent = new Intent();
-					Bundle bundle = new Bundle();
-					bundle.putString("userName", name);
-					bundle.putString("userPwd", pwd);
-					intent.putExtras(bundle);
-					setResult(37, intent);
-					RegisterActivity.this.finish();
+					Cursor cursor = RegisterActivity.this.db.rawQuery("select * from UserMessage where User_name = ?", new String[]{name});
+					if(cursor.moveToNext()){
+						new dialog(RegisterActivity.this, "Warning! This user name had already registed! Choose another user name!");
+					}
+					else{
+						db.execSQL("insert into UserMessage values(?, ?, ?, ?, ?, ?, ?)", new Object[]{userID, pwd, name, age, QQ, phone, Address});
+						new dialog(RegisterActivity.this, "Register succeded!");
+						RegisterActivity.this.EuserName.setText("");
+						RegisterActivity.this.EuserPwd.setText("");
+						RegisterActivity.this.EuserPhone.setText("");
+						RegisterActivity.this.EuserQQ.setText("");
+						RegisterActivity.this.EuserAge.setText("");
+						RegisterActivity.this.EuserAddress.setText("");
+						Intent intent = new Intent();
+						Bundle bundle = new Bundle();
+						bundle.putString("userName", name);
+						bundle.putString("userPwd", pwd);
+						intent.putExtras(bundle);
+						setResult(37, intent);
+						RegisterActivity.this.finish();
+					}
 				}
 			}
 		});

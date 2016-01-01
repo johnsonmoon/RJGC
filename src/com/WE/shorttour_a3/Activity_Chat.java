@@ -61,7 +61,7 @@ public class Activity_Chat extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				//intent.setClass(Activity_Chat.this, MainActivity.class);
-				//startActivity(intent);  //��ʼ��ת
+				//startActivity(intent);  //
 				changeRadioButtonImage(v.getId());
 				setResult(0x100, intent);
 				Activity_Chat.this.finish();
@@ -76,7 +76,7 @@ public class Activity_Chat extends Activity {
 				// TODO Auto-generated method stub
 				
 				intent.setClass(Activity_Chat.this, Activity_Mine.class);
-				startActivity(intent);  //��ʼ��ת
+				startActivity(intent);  //
 				finish();
 			}
 		});

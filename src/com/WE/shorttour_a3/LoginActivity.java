@@ -77,26 +77,25 @@ public class LoginActivity extends Activity{
                         new  dialog(LoginActivity.this, "User not exist!");
                     }
                     else{
-                        while(cursor.moveToNext()){
-                            String usernameGet = new String(cursor.getString(cursor.getColumnIndex("User_name")).trim());
-                            String userpwdGet = new String(cursor.getString(cursor.getColumnIndex("User_pwd")).trim());
+                        String usernameGet = new String(cursor.getString(cursor.getColumnIndex("User_name")).trim());
+                        String userpwdGet = new String(cursor.getString(cursor.getColumnIndex("User_pwd")).trim());
 
-                            if(!usernameGet.equals(userName) || !userpwdGet.equals(userPwd)){
-                                new dialog(LoginActivity.this, "User name or user password wrong!");
-                            }
-                            else {
-                                LoginActivity.this.userNameConfirm = usernameGet;
-                                LoginActivity.this.userPwdConfirm = userpwdGet;
-                                new dialog(LoginActivity.this, "Login succeded!");
-                                Intent intentResult = new Intent();
-                                Bundle bundleResult = new Bundle();
-                                bundleResult.putString("userName", LoginActivity.this.userNameConfirm);
-                                bundleResult.putString("userPwd", LoginActivity.this.userPwdConfirm);
-                                intentResult.putExtras(bundleResult);
-                                LoginActivity.this.setResult(0x11, intentResult);
-                                LoginActivity.this.finish();
-                            }
+                        if(!usernameGet.equals(userName) || !userpwdGet.equals(userPwd)){
+                            new dialog(LoginActivity.this, "User name or user password wrong!");
                         }
+                        else {
+                            LoginActivity.this.userNameConfirm = usernameGet;
+                            LoginActivity.this.userPwdConfirm = userpwdGet;
+                            new dialog(LoginActivity.this, "Login succeded!");
+                            Intent intentResult = new Intent();
+                            Bundle bundleResult = new Bundle();
+                            bundleResult.putString("userName", LoginActivity.this.userNameConfirm);
+                            bundleResult.putString("userPwd", LoginActivity.this.userPwdConfirm);
+                            intentResult.putExtras(bundleResult);
+                            LoginActivity.this.setResult(0x11, intentResult);
+                            LoginActivity.this.finish();
+                        }
+
                     }
                 }
             }
@@ -124,12 +123,11 @@ public class LoginActivity extends Activity{
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 37 && resultCode == 37){
-            Intent i = getIntent();
-            Bundle b = i.getExtras();
-            //String userName = new String(b.getString("userName").trim());
-            //String userPwd = new String(b.getString("userPwd").trim());
-            //this.userNameInput.setText(userName);
-            //this.userPwdInput.setText(userPwd);
+            Bundle b = data.getExtras();
+            String userName = new String(b.getString("userName").trim());
+            String userPwd = new String(b.getString("userPwd").trim());
+            this.userNameInput.setText(userName);
+            this.userPwdInput.setText(userPwd);
         }
     }
 }

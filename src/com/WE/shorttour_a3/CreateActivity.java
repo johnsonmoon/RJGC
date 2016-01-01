@@ -13,7 +13,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 public class CreateActivity extends Activity {
-	private static final String[] kind={"²ÉÕª","µöÓã","¹«Ô°","¹ÅÕò","º£±ß","ÅÀÉ½","ÉÍ»¨","ÉÕ¿¾"};
+	private static final String[] kind={"shanghua","piaoliu","zijia","qinzi","guanjing","jixian","panyan","shaokao"};
 	private TextView view ;
     private Spinner spinner;
     private ArrayAdapter<String> adapter;
@@ -26,19 +26,19 @@ public class CreateActivity extends Activity {
          
         view = (TextView) findViewById(R.id.create_tchoose);
         spinner = (Spinner) findViewById(R.id.create_choose);
-        //½«¿ÉÑ¡ÄÚÈİÓëArrayAdapterÁ¬½ÓÆğÀ´
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,kind);
          
-        //ÉèÖÃÏÂÀ­ÁĞ±íµÄ·ç¸ñ
+        //
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
          
-        //½«adapter Ìí¼Óµ½spinnerÖĞ
+        //
         spinner.setAdapter(adapter);
          
-        //Ìí¼ÓÊÂ¼şSpinnerÊÂ¼ş¼àÌı  
+        //
         spinner.setOnItemSelectedListener(new SpinnerSelectedListener());
          
-        //ÉèÖÃÄ¬ÈÏÖµ
+        //
         spinner.setVisibility(view.VISIBLE);
 	}
 

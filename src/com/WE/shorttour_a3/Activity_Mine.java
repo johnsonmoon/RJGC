@@ -134,7 +134,7 @@ public class Activity_Mine extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (Activity_Mine.this.isLogin){
-					//Jump into a new Activity that show the detail message of this user.
+					//Jump into a new Activity that show the detail message of this user. Also, user can logout.
 					//***********************************************************************************************************
 				}
 				else{
@@ -240,8 +240,7 @@ public class Activity_Mine extends Activity {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
 		if((requestCode == resultCode) &&(resultCode == 0x11)){//If return successfully from Login activity.
-			Intent i = getIntent();
-			Bundle b = i.getExtras();
+			Bundle b = data.getExtras();
 			this.userName = b.getString("userName");
 			this.userPwd = b.getString("userPwd");
 			this.db.execSQL("delete from AlreadyUserMessage");
