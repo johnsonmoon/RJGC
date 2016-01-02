@@ -1,5 +1,6 @@
 package com.WE.shorttour_a3;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
@@ -35,6 +36,10 @@ public class LoginActivity extends Activity{
     private SQLiteDatabase db;
 
     public void init(){
+
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
         this.userNameInput = (EditText)findViewById(R.id.editText_Login_userName);
         this.userPwdInput = (EditText)findViewById(R.id.editText_Login_userPwd);
         this.btnConfirm = (Button)findViewById(R.id.button_Login_confirm);
@@ -116,6 +121,9 @@ public class LoginActivity extends Activity{
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == android.R.id.home){
+            this.finish();
+        }
         return super.onOptionsItemSelected(item);
     }
 

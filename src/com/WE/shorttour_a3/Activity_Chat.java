@@ -39,8 +39,8 @@ public class Activity_Chat extends Activity {
 			R.drawable.people11, R.drawable.people12, R.drawable.people13, R.drawable.people14,
 			R.drawable.people15, R.drawable.people16, R.drawable.people17, R.drawable.people18,
 			R.drawable.people19, R.drawable.people20};
-	private String[] msg = { "[����]", "[---]", "jshagiug", "Yes I'm good", "It's a little bit boaring...",
-			"what r u doing ?", "yeah","See u ", "[   ]", "hahah", "go", "alright", "lets move!", "[����]",
+	private String[] msg = { "[看了又看]", "[---]", "jshagiug", "Yes I'm good", "It's a little bit boaring...",
+			"what r u doing ?", "yeah","See u ", "[   ]", "hahah", "go", "alright", "lets move!", "[你好啊]",
 			"Oh yeah!", "How r u?", "i don't think so !", "wonderful!", "ok", "may you dreams come true!"};
 	private String[] time = {"yesterday", "16:20", "12:10", "7:56", "6:30", "3:20", "Monday", "Monday", "Tuesday", "Tuesday",
 			"Tuesday", "Wednesday", "Wednesday", "Wednesday", "Thursday", "Thursday", "Thursday", "Friday", "Friday", "Friday"};

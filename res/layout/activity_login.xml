@@ -60,6 +60,5 @@
         android:text="点这儿注册新用户"
         android:id="@+id/button_Login_register"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentRight="true" />
 </RelativeLayout>

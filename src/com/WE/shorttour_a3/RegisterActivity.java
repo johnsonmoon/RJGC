@@ -1,5 +1,6 @@
 package com.WE.shorttour_a3;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
@@ -30,6 +31,10 @@ public class RegisterActivity extends Activity {
 	private SQLiteDatabase db;
 
 	public void init(){
+
+		ActionBar actionBar = getActionBar();
+		actionBar.setDisplayHomeAsUpEnabled(true);
+
 		this.EuserName = (EditText)findViewById(R.id.editText_Register_userName);
 		this.EuserAge = (EditText)findViewById(R.id.editText_Register_userAge);
 		this.EuserQQ = (EditText)findViewById(R.id.editText_Register_userQQ);
@@ -124,6 +129,9 @@ public class RegisterActivity extends Activity {
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
 			return true;
+		}
+		if(item.getItemId() == android.R.id.home){
+			this.finish();
 		}
 		return super.onOptionsItemSelected(item);
 	}

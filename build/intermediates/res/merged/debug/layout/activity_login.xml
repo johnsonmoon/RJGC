@@ -35,7 +35,8 @@
         android:id="@+id/editText_Login_userPwd"
         android:layout_below="@+id/textView7"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:password="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -59,6 +60,5 @@
         android:text="点这儿注册新用户"
         android:id="@+id/button_Login_register"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentRight="true" />
 </RelativeLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/activity_login.xml -->

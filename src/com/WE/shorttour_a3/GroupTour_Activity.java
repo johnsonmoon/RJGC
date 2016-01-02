@@ -58,7 +58,7 @@ public class GroupTour_Activity extends Activity {
 	public void init(){
 		
  		this.imageView_bottom = (ImageView)findViewById(R.id.groupTour_imageView_bottom);
-		//�����µ�������********************
+		//********************
 		this.imageView_bottom.setOnClickListener(new OnClickListener() {
 			
 			@Override

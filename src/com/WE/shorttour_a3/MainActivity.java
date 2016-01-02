@@ -222,7 +222,7 @@ public class MainActivity extends Activity {
 		// TODO Auto-generated method stub
 		if(keyCode == KeyEvent.KEYCODE_BACK){
 			if(i == 0){
-				Toast.makeText(this,  "�ٰ�һ�η��ؼ��˳�����",  Toast.LENGTH_SHORT).show();
+				Toast.makeText(this,  "再按一次返回键退出",  Toast.LENGTH_SHORT).show();
 				i++;
 			}else{
 				this.finish();
