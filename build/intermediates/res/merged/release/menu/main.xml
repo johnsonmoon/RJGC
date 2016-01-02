@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.WE.shorttour_a3.MainActivity" >
+	
+    <item 
+        android:id="@+id/menu_search_button"
+        android:title="@string/action_search"
+        android:icon="@drawable/icon_search_actionbar"
+        android:showAsAction="ifRoom"/>
+    
+</menu>
+<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/menu/main.xml -->

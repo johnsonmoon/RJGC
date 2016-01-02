@@ -13,5 +13,6 @@
     <string name="kong"></string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_user_infomation">UserInfomationActivity</string>
+    <string name="title_activity_new_introduction">NewIntroductionActivity</string>
 
 </resources>

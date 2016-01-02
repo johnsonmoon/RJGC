@@ -6,7 +6,7 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
-        <dex dex="C:\Users\Administrator\AndroidStudioProjects\RJGC\build\intermediates\pre-dexed\debug\android-support-v4-91538ad1f3ca033a261357a6f67883c10d2bd570.jar" />
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\RJGC\build\intermediates\pre-dexed\release\android-support-v4-91538ad1f3ca033a261357a6f67883c10d2bd570.jar" />
     </item>
 
 </items>

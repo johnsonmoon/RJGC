@@ -120,7 +120,7 @@ public class CreateActivity extends Activity {
 								CreateActivity.this.editActivityPlace.getText().toString().trim() + "#" +
 								CreateActivity.this.editActivityLastingTime.getText().toString().trim() + "#" +
 								CreateActivity.this.editActivityConsume.getText().toString().trim() + "#" +
-								CreateActivity.this.editActivityBriefIntroduction.toString().trim();
+								CreateActivity.this.editActivityBriefIntroduction.getText().toString().trim();
 						Group_time = CreateActivity.this.editActivityTime.getText().toString().trim();
 						Group_cehua = "";//策划无需加入
 						db.execSQL("insert into GroupMessage values(?, ?, ?, ?, ?, ?, ?)", new String[]{Group_id, Group_AddUserId, Group_name, Group_image, Group_mess, Group_time, Group_cehua});

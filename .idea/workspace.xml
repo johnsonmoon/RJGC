@@ -10,16 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7a6012-5d16-4ecd-8a84-f8c1b8a0a497" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/NewIntroductionActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_new_introduction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list_item_already_pushed_activity_info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/Activity_Chat.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/Activity_Chat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/Activity_Mine.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/Activity_Mine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/CreateActivity$SpinnerSelectedListener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/CreateActivity$SpinnerSelectedListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/CreateActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/CreateActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/CreateActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/CreateActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/GroupTour_Activity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/GroupTour_Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/GroupTour_Activity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/GroupTour_Activity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/GroupTour_Activity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/GroupTour_Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/IntroductionActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/IntroductionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/LoginActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/MyCollectionActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/MyCollectionActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/R$id.class" />
@@ -30,38 +28,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/RJGC-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/RJGC-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/RJGC-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/RJGC-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/RegisterActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/RegisterActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/RegisterActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/RegisterActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/SearchActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/SearchActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/SearchResultActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/SearchResultActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/TourInfoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/TourInfoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/WE/shorttour_a3/UserInfomationActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android-support-v4-91538ad1f3ca033a261357a6f67883c10d2bd570.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android-support-v4-91538ad1f3ca033a261357a6f67883c10d2bd570.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/Activity_Chat.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/Activity_Chat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/CreateActivity.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/CreateActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/GroupTour_Activity.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/GroupTour_Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/WE/shorttour_a3/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/WE/shorttour_a3/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/WE/shorttour_a3/UserInfomationActivity.java" afterPath="$PROJECT_DIR$/src/com/WE/shorttour_a3/UserInfomationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_create.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_create.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_create.xml" afterPath="$PROJECT_DIR$/res/layout/activity_create.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RJGC.iws" />
@@ -89,35 +77,19 @@
     <favorites_list name="RJGC" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DBoperater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBfolder/DBoperater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="114" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5864407">
-              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\Administrator\johnson_apk_keys.jks" />
+    <option name="KEY_ALIAS" value="forAPK" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -915,10 +887,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/SearchResultActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_user_infomation.xml" />
         <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/Activity_Mine.java" />
-        <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/GroupTour_Activity.java" />
         <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/UserInfomationActivity.java" />
         <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/LoginActivity.java" />
@@ -927,6 +897,11 @@
         <option value="$PROJECT_DIR$/res/layout/test.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_create.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_item_already_pushed_activity_info.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_new_introduction.xml" />
+        <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/GroupTour_Activity.java" />
+        <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/NewIntroductionActivity.java" />
         <option value="$PROJECT_DIR$/src/com/WE/shorttour_a3/CreateActivity.java" />
       </list>
     </option>
@@ -1002,74 +977,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBfolder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shorttour_a3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RJGC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -1086,9 +993,12 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="178" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="359" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="445" />
     <property name="android.project.structure.last.selected" value="RJGC" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Administrator\AndroidStudioProjects\RJGC" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -1281,17 +1191,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1308" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23954985" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31350482" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38486314" sideWeight="0.49678457" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4814815" sideWeight="0.47749197" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50080514" sideWeight="0.47749197" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.50321543" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1301,10 +1211,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.49678457" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21221864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15353698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23070739" sideWeight="0.4916067" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21221864" sideWeight="0.4916067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.49678457" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1328,7 +1238,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1337,7 +1247,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#818#836#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,9 +1288,6 @@
             <element signature="method#init#0;class#CreateActivity#0" expanded="false" />
             <element signature="method#initGroupMessageNumber#0;class#CreateActivity#0" expanded="false" />
             <element signature="method#initUserIDFunc#0;class#CreateActivity#0" expanded="false" />
-            <element signature="method#initEventFunc#0;class#CreateActivity#0" expanded="false" />
-            <element signature="e#3413#5339#0" expanded="true" />
-            <element signature="e#5338#5339#0" expanded="true" />
             <element signature="method#onCreate#0;class#CreateActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#CreateActivity#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#CreateActivity#0" expanded="false" />
@@ -1399,6 +1308,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,16 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/GroupTour_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4641577">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="133" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/UserInfomationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1489,22 +1389,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8135593">
           <caret line="231" column="47" selection-start-line="231" selection-start-column="47" selection-end-line="231" selection-end-column="47" />
           <folding>
-            <element signature="e#5731#5747#0" expanded="true" />
+            <element signature="e#5731#5747#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1547,41 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBfolder/DBoperater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="114" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-sdk/sources/android-19/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70508474">
-          <caret line="2361" column="0" selection-start-line="2361" selection-start-column="0" selection-end-line="2361" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/CreateActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.042372882">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="method#init#0;class#CreateActivity#0" expanded="false" />
-            <element signature="method#initGroupMessageNumber#0;class#CreateActivity#0" expanded="false" />
-            <element signature="method#initUserIDFunc#0;class#CreateActivity#0" expanded="false" />
-            <element signature="method#initEventFunc#0;class#CreateActivity#0" expanded="false" />
-            <element signature="e#3413#5339#0" expanded="true" />
-            <element signature="e#5338#5339#0" expanded="true" />
-            <element signature="method#onCreate#0;class#CreateActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#CreateActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#CreateActivity#0" expanded="false" />
-            <element signature="class#SpinnerSelectedListener#0;class#CreateActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_create.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -1593,10 +1448,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_item_homepage.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/head_group_tour.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk/sources/android-19/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26440677">
+          <caret line="2360" column="5" selection-start-line="2360" selection-start-column="5" selection-end-line="2360" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_grouptour.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_item_already_pushed_activity_info.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/IntroductionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9677966">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.2508473">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_new_introduction.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#301#0" expanded="true" />
+            <element signature="e#326#361#0" expanded="true" />
+            <element signature="e#387#422#0" expanded="true" />
+            <element signature="e#446#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/CreateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="110" selection-start-line="122" selection-start-column="110" selection-end-line="122" selection-end-column="110" />
+          <folding>
+            <element signature="method#init#0;class#CreateActivity#0" expanded="false" />
+            <element signature="method#initGroupMessageNumber#0;class#CreateActivity#0" expanded="false" />
+            <element signature="method#initUserIDFunc#0;class#CreateActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#CreateActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#CreateActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#CreateActivity#0" expanded="false" />
+            <element signature="class#SpinnerSelectedListener#0;class#CreateActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/NewIntroductionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3271186">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+          <folding>
+            <element signature="method#init#0;class#NewIntroductionActivity#0" expanded="false" />
+            <element signature="method#initInfomationFunc#0;class#NewIntroductionActivity#0" expanded="false" />
+            <element signature="method#initEventFunc#0;class#NewIntroductionActivity#0" expanded="false" />
+            <element signature="e#4111#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4321#4530#0" expanded="true" />
+            <element signature="e#4529#4530#0" expanded="true" />
+            <element signature="e#4569#4778#0" expanded="true" />
+            <element signature="e#4777#4778#0" expanded="true" />
+            <element signature="method#onCreate#0;class#NewIntroductionActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#NewIntroductionActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/WE/shorttour_a3/GroupTour_Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24067797">
+          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <folding>
+            <element signature="method#GroupTour_Activity#0;class#GroupTour_Activity#0" expanded="false" />
+            <element signature="e#1633#1874#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#2616#3241#0" expanded="true" />
+            <element signature="e#3240#3241#0" expanded="true" />
+            <element signature="method#Set_ListView_Data#0;class#GroupTour_Activity#0" expanded="false" />
+            <element signature="e#3479#3495#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#GroupTour_Activity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#GroupTour_Activity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5864407">
-          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5762712">
+          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+          <folding>
+            <element signature="e#818#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBfolder/DBoperater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21186441">
+          <caret line="22" column="114" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="114" />
           <folding />
         </state>
       </provider>

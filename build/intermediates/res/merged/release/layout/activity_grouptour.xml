@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    
+    <ListView 
+        android:id="@+id/groupTour_listView"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dividerHeight="4sp"
+        >
+        
+    </ListView>
+    
+    <ImageView 
+        android:id="@+id/groupTour_imageView_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/grouptour_bottom"
+        android:clickable="true"/>
+		
+</RelativeLayout>
+<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/activity_grouptour.xml -->

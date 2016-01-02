@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/image_View_mine1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:src="@drawable/mine_up_picture"/>
+    
+    <ImageView 
+        android:id="@+id/image_View_mine2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/image_View_mine1"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:src="@drawable/mine_zutuan_info"/>
+    
+    <ImageView 
+        android:id="@+id/image_View_mine3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/image_View_mine2"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:src="@drawable/mine_shoucang"/>
+    
+    <ImageView 
+        android:id="@+id/image_View_mine4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/image_View_mine3"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:src="@drawable/mine_my_wallet"/>
+    
+    <ImageView 
+        android:id="@+id/image_View_mine5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/image_View_mine4"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:src="@drawable/mine_myscore"/>
+    
+    <ImageView 
+        android:id="@+id/image_View_mine6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/image_View_mine5"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:src="@drawable/mine_lianxikefu"/>
+
+    <LinearLayout
+        android:id="@+id/bottomList_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal" 
+        android:layout_above="@id/image_View_mine6">
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_qunliao_1_mine"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_qunliaol_1"
+                android:text="@string/qunliao" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_homepage_1_mine"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_homepagel_1"
+                android:text="@string/homepage" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linaer_bottom" >
+
+            <RadioButton
+                android:id="@+id/Button_mine_1_mine"
+                style="@style/rbt_bottom"
+                android:drawableTop="@drawable/icon_minel_1"
+                android:text="@string/mine" />
+        </LinearLayout>
+ 
+    </LinearLayout>
+
+    
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/activity_mine.xml -->

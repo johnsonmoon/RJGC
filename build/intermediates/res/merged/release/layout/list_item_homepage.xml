@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/list_item_image_homepage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:background="@drawable/list_background" />
+
+    <TextView
+        android:id="@+id/list_item_TextView_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#bbb"
+        android:layout_alignBottom="@+id/list_item_image_homepage"
+        android:layout_alignParentLeft="true"
+        android:text="Medium Text"
+        android:textSize="26sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/list_item_homepage.xml -->

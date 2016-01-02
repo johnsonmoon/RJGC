@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.WE.shorttour_a3"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -16,10 +16,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +28,7 @@
         </activity>
         <activity
             android:name=".Activity_Mine"
-            android:label="我的" >
+            android:label="我的">
             <intent-filter>
                 <action android:name="android.intent.action.Activity_Mine" />
 
@@ -37,7 +37,7 @@
         </activity>
         <activity
             android:name=".Activity_Chat"
-            android:label="群聊" >
+            android:label="群聊">
             <intent-filter>
                 <action android:name="android.intent.action.Activity_Chat" />
 
@@ -46,7 +46,7 @@
         </activity>
         <activity
             android:name=".SearchActivity"
-            android:label="搜索你要的短途游" >
+            android:label="搜索你要的短途游">
             <intent-filter>
                 <action android:name="android.intent.action.SearchActivity" />
 
@@ -55,7 +55,7 @@
         </activity>
         <activity
             android:name=".IntroductionActivity"
-            android:label="搜索你要的短途游" >
+            android:label="搜索你要的短途游">
             <intent-filter>
                 <action android:name="android.intent.action.IntroductionActivity" />
 
@@ -64,7 +64,7 @@
         </activity>
         <activity
             android:name=".GroupTour_Activity"
-            android:label="组团游" >
+            android:label="组团游">
             <intent-filter>
                 <action android:name="android.intent.action.GroupTour_Activity" />
 
@@ -73,7 +73,7 @@
         </activity>
         <activity
             android:name=".SearchResultActivity"
-            android:label="搜索结果" >
+            android:label="搜索结果">
             <intent-filter>
                 <action android:name="android.intent.action.SearchResultActivity" />
 
@@ -82,7 +82,7 @@
         </activity>
         <activity
             android:name=".CreateActivity"
-            android:label="发布新的组团游" >
+            android:label="发布新的组团游">
             <intent-filter>
                 <action android:name="android.intent.action.CreateActivity" />
 
@@ -91,7 +91,7 @@
         </activity>
         <activity
             android:name=".GroupChatActivity"
-            android:label="聊天" >
+            android:label="聊天">
             <intent-filter>
                 <action android:name="android.intent.action.GroupChatActivity" />
 
@@ -100,7 +100,7 @@
         </activity>
         <activity
             android:name=".TourInfoActivity"
-            android:label="我的组团信息" >
+            android:label="我的组团信息">
             <intent-filter>
                 <action android:name="android.intent.action.TourInfoActivity" />
 
@@ -109,7 +109,7 @@
         </activity>
         <activity
             android:name=".MyCollectionActivity"
-            android:label="我的收藏" >
+            android:label="我的收藏">
             <intent-filter>
                 <action android:name="android.intent.action.MyCollectionActivity" />
 
@@ -118,16 +118,16 @@
         </activity>
         <activity
             android:name=".RegisterActivity"
-            android:label="用户注册" >
-        </activity>
+            android:label="用户注册"></activity>
         <activity
             android:name=".LoginActivity"
-            android:label="用户登陆" >
-        </activity>
+            android:label="用户登陆"></activity>
         <activity
             android:name=".UserInfomationActivity"
-            android:label="用户详细信息" >
-        </activity>
+            android:label="用户详细信息"></activity>
+        <activity
+            android:name=".NewIntroductionActivity"
+            android:label="详细信息"></activity>
     </application>
 
 </manifest>

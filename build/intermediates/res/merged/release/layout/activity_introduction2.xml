@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shorttour_a2.IntroductionActivity" >
+
+    <ImageView
+        android:id="@+id/introduction_Image2"
+        android:layout_width="fill_parent"
+        android:layout_height="150sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center|center_horizontal|clip_horizontal"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/place16" />
+        <TextView
+         android:id="@+id/introduction"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/introduction_Image2"
+         android:layout_alignParentLeft="true"
+         android:text=" 杭州太子湾公园                          发团日期06.17"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#FFFFFF"
+         android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/introduction_text2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/introduction_qunliao"
+         android:text="
+        
+        
+在太子湾公园遇见你\n
+					——期待结识爱赏花的你\n\n
+
+出发城市	杭州 出发\n
+目的地		杭州太子湾公园\n
+时间安排	1天\n
+发团日期	07月11日\n
+交通信息	汽车去汽车回\n
+集合地		杭州西湖文化广场\n
+活动特色	赏花 \n
+预算		门票¥0  交通费用¥50\n
+景点介绍          鲜花盛开的季节，最美莫过于太子湾公园，到处都是郁金香和樱花，融田园风韵和山情野趣，也是炙手可热的西式婚礼举办地。\n\n
+行程安排	\n\n
+09：30-10：30 杭州西湖文化广场集合，车程约1小时\n\n
+10：30-11：30 自用活动。\n\n
+11：30-13：30 野炊进行时，要求学员根据地形，自行搭灶、捡柴、生火、烹制食物。\n\n
+14：00-15：30 游客自由活动\n\n
+15：00-15：40 团队项目——求生墙\n\n
+16：00-17：00 返回杭州西湖文化广场，结束行程。\n\n
+        " />
+
+     <TextView
+         android:id="@+id/intorduction_renming"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/introduction_Image2"
+         android:layout_marginLeft="14dp"
+         android:layout_toRightOf="@+id/introduction_qunliao"
+         android:text="Leon_"
+         android:textSize="15sp" />
+
+     <ImageView
+         android:id="@+id/intorduction_touxiang"
+         android:layout_width="70sp"
+         android:layout_height="70sp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="118dp"
+         android:src="@drawable/temp" />
+
+     <Button
+         android:id="@+id/introduction_qunliao"
+         android:layout_width="wrap_content"
+         android:layout_height="37sp"
+         android:layout_alignLeft="@+id/intorduction_touxiang"
+         android:layout_below="@+id/intorduction_touxiang"
+         android:background="@drawable/shape"
+         android:text="进群聊"
+         android:textColor="#FFFFFF"
+         android:textSize="17sp" />
+
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/activity_introduction2.xml -->
