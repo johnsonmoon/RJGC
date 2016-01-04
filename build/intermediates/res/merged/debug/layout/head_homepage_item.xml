@@ -5,4 +5,4 @@
         android:scaleType="fitXY"
         android:layout_gravity="center|center_horizontal|clip_horizontal"
         android:adjustViewBounds="true"
-        android:src="@drawable/picture_zutuanyou" /><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/head_homepage_item.xml -->
+        android:src="@drawable/picture_zutuanyou" /><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/head_homepage_item.xml -->

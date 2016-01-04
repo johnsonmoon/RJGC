@@ -84,7 +84,6 @@ public class RegisterActivity extends Activity {
 						bundle.putString("userPwd", pwd);
 						intent.putExtras(bundle);
 						setResult(37, intent);
-						RegisterActivity.this.finish();
 					}
 				}
 			}

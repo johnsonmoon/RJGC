@@ -6,4 +6,4 @@
         android:layout_gravity="center|center_horizontal|clip_horizontal"
         android:adjustViewBounds="true"
         android:src="@drawable/picture_zutuayou_clickin"
-        android:clickable="true"/><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/head2_homepage_item.xml -->
+        android:clickable="true"/><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/head2_homepage_item.xml -->

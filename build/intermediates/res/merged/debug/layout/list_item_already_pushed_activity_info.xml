@@ -73,4 +73,4 @@
         android:layout_alignTop="@+id/textView23"
         android:layout_alignRight="@+id/textView23"
         android:layout_alignEnd="@+id/textView23"/>
-</LinearLayout><!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/RJGC/res/layout/list_item_already_pushed_activity_info.xml -->
+</LinearLayout><!-- From: file:/C:/Users/Administrator/workspace/ShortTour_A4/res/layout/list_item_already_pushed_activity_info.xml -->
