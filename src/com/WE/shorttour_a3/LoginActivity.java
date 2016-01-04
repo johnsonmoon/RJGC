@@ -98,7 +98,6 @@ public class LoginActivity extends Activity{
                             bundleResult.putString("userPwd", LoginActivity.this.userPwdConfirm);
                             intentResult.putExtras(bundleResult);
                             LoginActivity.this.setResult(0x11, intentResult);
-                            LoginActivity.this.finish();
                         }
 
                     }
