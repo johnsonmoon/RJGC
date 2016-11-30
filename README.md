@@ -1,2 +1,4 @@
-# RJGC
-软件工程大型实验程序
+# ShortTourClient
+
+短途游App测试android App
+(有机会加后台程序)
